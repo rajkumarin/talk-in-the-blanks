@@ -1,4 +1,4 @@
-# Voice Form Plugin for React
+# Talk in the Blanks
 
 A voice-enabled form filling React plugin using speech recognition and LLM for automated form completion.
 
@@ -14,13 +14,13 @@ A voice-enabled form filling React plugin using speech recognition and LLM for a
 ## Installation
 
 ```bash
-npm install voice-form-plugin
+npm install talk-in-the-blanks
 ```
 
 ## Usage
 
 ```tsx
-import { VoiceFormPlugin } from 'voice-form-plugin';
+import { TalkInTheBlanks } from 'talk-in-the-blanks';
 
 const MyForm = () => {
   const fields = [
@@ -34,7 +34,7 @@ const MyForm = () => {
   };
 
   return (
-    <VoiceFormPlugin
+    <TalkInTheBlanks
       fields={fields}
       onSubmit={handleSubmit}
       className="my-form-class"

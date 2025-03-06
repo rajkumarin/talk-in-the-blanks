@@ -1,4 +1,4 @@
-import { VoiceFormPlugin } from "@/lib/voice-form-plugin";
+import { TalkInTheBlanks } from "@/lib/talk-in-the-blanks";
 
 const demoFields = [
   { name: "name", label: "Full Name", type: "text", required: true },
@@ -16,13 +16,13 @@ export default function Demo() {
     <div className="container py-10">
       <div className="max-w-2xl mx-auto space-y-6">
         <div className="text-center space-y-2">
-          <h1 className="text-3xl font-bold">Voice Form Plugin Demo</h1>
+          <h1 className="text-3xl font-bold">Talk in the Blanks Demo</h1>
           <p className="text-muted-foreground">
-            Example usage of the Voice Form Plugin
+            Example usage of Talk in the Blanks
           </p>
         </div>
 
-        <VoiceFormPlugin
+        <TalkInTheBlanks
           fields={demoFields}
           onSubmit={handleSubmit}
           className="space-y-4"
